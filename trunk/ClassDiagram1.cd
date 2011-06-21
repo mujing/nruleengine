@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="RuleEngine.ROM" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ROM.cs</FileName>
+      <HashCode>AABAAAAAAIAAAAACCIAAAgEIQAAAAAIAQAAAIAAIABA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RuleEngine.Evidence.Fact" BaseTypeListCollapsed="true">
+    <Position X="12" Y="11.75" Width="4.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\Fact\Fact.cs</FileName>
+      <HashCode>AAAgAAAAAAAAAAgEAAAAAoAAAAAAAAAAAAAACAAAABA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RuleEngine.Evidence.Rule" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="11.75" Width="4.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\Rule\Rule.cs</FileName>
+      <HashCode>AAAgCAAQAAAAACgGBAEQAoAAAAAAIAAAAAAACAAAABA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RuleEngine.Evidence.AEvidence">
+    <Position X="8.25" Y="3.5" Width="4.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\AEvidence.cs</FileName>
+      <HashCode>AJAkEACQAAYEgAwGBAAAAoQAAAAAACoAAAAoSAABElA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuleEngine.Evidence.ExpressionEvaluator" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\Expression\ExpressionEvaluator.cs</FileName>
+      <HashCode>yAAkAgAAAAAhBSRIBkCAAgxAEAECAQAAFAAAGBAAIEA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Enum Name="RuleEngine.Evidence.ExpressionEvaluator.Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Evidence\ExpressionEvaluator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="RuleEngine.Evidence.ExpressionEvaluator.Symbol" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Evidence\ExpressionEvaluator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+  </Class>
+  <Class Name="RuleEngine.Compiler.Compiler" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Compiler\Compiler.cs</FileName>
+      <HashCode>QIAAAAAAAAAAAAAAAAAUAAAAAAACAAAAAAAAAAAAAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuleEngine.Decisions.Decision" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Decisions\Decision.cs</FileName>
+      <HashCode>ABEEAAAQAAIEAAAGAAAAAgAAAAAAAAgAAAAIAAABAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuleEngine.Decisions.ExecutionList" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Decisions\ExecutionList.cs</FileName>
+      <HashCode>AAIAAgAAAAAAAAAEAAAAAAAgAAAQAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuleEngine.EvidenceLookupArgs" Collapsed="true">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Delegates.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuleEngine.ModelLookupArgs" Collapsed="true">
+    <Position X="27" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Delegates.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuleEngine.ChangedArgs" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Delegates.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuleEngine.ChangedModelArgs" Collapsed="true">
+    <Position X="1.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Delegates.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuleEngine.MediatorListArgs" Collapsed="true">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Delegates.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuleEngine.ModelUpdateArgs" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Delegates.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuleEngine.CallbackArgs" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Delegates.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuleEngine.Evidence.Actions.ActionCallback" Collapsed="true">
+    <Position X="7.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\Actions\ActionCallback.cs</FileName>
+      <HashCode>AABgAAAAAAAAAAgEAAAQAoBAAAAAAAAAAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuleEngine.Evidence.Actions.ActionExecute" Collapsed="true">
+    <Position X="9.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\Actions\ActionExecute.cs</FileName>
+      <HashCode>AAAgAAAAAAAAAAgEAAAQAoBAAAAAAAAAAAAACAAAABA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuleEngine.Evidence.Actions.ActionExpression" Collapsed="true">
+    <Position X="17.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\Actions\ActionExpression.cs</FileName>
+      <HashCode>AAAgAAAAAAAAAAgEAAAQAoBAAAAAAAAAIAAACAAAABA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuleEngine.Evidence.EvidenceValue.Naked" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\EvidenceValue\Naked.cs</FileName>
+      <HashCode>ABAAAAARAAIABAACBAAAAoQAAAIAACAAAAAwAAAAEBA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RuleEngine.Evidence.EvidenceValue.Xml" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\EvidenceValue\Xml.cs</FileName>
+      <HashCode>AAAAAEAQAAAABCAChAIAAoAAAAAAAIAAAAAwAAAAEBA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="RuleEngine.Evidence.EvidenceSpecifier" Collapsed="true">
+    <Position X="21.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\EvidenceSpecifier.cs</FileName>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="RuleEngine.Evidence.IFact">
+    <Position X="14.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\Fact\IFact.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RuleEngine.Evidence.IRule">
+    <Position X="17" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\Rule\IRule.cs</FileName>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RuleEngine.Evidence.IEvidence">
+    <Position X="16" Y="3.5" Width="3.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\IEvidence.cs</FileName>
+      <HashCode>AAAAAACQAAAAgAgGBAAAAgAAAAAAAAgAAAAgAAAAEEA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RuleEngine.Evidence.Actions.IAction" Collapsed="true">
+    <Position X="19.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\Actions\IAction.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RuleEngine.Evidence.EvidenceValue.IEvidenceValue" Collapsed="true">
+    <Position X="21.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Evidence\EvidenceValue\IEvidenceValue.cs</FileName>
+      <HashCode>AAAAAAAQAAAABAACBAAAAoAAAAAAAAAAAAAgAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="RuleEngine.ChangedHandler" Collapsed="true">
+    <Position X="23.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Delegates.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAACAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RuleEngine.EvidenceLookupHandler" Collapsed="true">
+    <Position X="25.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Delegates.cs</FileName>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RuleEngine.ModelLookupHandler" Collapsed="true">
+    <Position X="27" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Delegates.cs</FileName>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RuleEngine.CallbackHandler" Collapsed="true">
+    <Position X="21.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Delegates.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="RuleEngine.RegisteredMethodHandler" Collapsed="true">
+    <Position X="21.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Delegates.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

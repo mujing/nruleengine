@@ -1,0 +1,5 @@
+E:\MyDoc\Visual Studio 2010\02300.WR Platform\Main\Source\Workflow\RuleEngine\bin\Debug\RuleEngine.dll
+E:\MyDoc\Visual Studio 2010\02300.WR Platform\Main\Source\Workflow\RuleEngine\bin\Debug\RuleEngine.pdb
+E:\MyDoc\Visual Studio 2010\02300.WR Platform\Main\Source\Workflow\RuleEngine\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDoc\Visual Studio 2010\02300.WR Platform\Main\Source\Workflow\RuleEngine\obj\Debug\RuleEngine.dll
+E:\MyDoc\Visual Studio 2010\02300.WR Platform\Main\Source\Workflow\RuleEngine\obj\Debug\RuleEngine.pdb
