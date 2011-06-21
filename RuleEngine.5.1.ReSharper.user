@@ -1,0 +1,36 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="8DBA31D2-E27E-439B-A37C-33D75B8DF2C6/d:Evidence/d:EvidenceValue/f:Xml.cs" caret="1327" fromTop="36" />
+      <File id="8DBA31D2-E27E-439B-A37C-33D75B8DF2C6/d:Evidence/d:Actions/f:ActionCallback.cs" caret="0" fromTop="0" />
+      <File id="8DBA31D2-E27E-439B-A37C-33D75B8DF2C6/d:Evidence/d:Fact/f:Fact.cs" caret="1077" fromTop="28" />
+      <File id="8DBA31D2-E27E-439B-A37C-33D75B8DF2C6/d:Evidence/d:Rule/f:Rule.cs" caret="6764" fromTop="80" />
+      <File id="8DBA31D2-E27E-439B-A37C-33D75B8DF2C6/f:ClassDiagram1.cd" caret="0" fromTop="0" />
+      <File id="8DBA31D2-E27E-439B-A37C-33D75B8DF2C6/d:Properties/f:AssemblyInfo.cs" caret="1172" fromTop="25" />
+      <File id="8DBA31D2-E27E-439B-A37C-33D75B8DF2C6/d:Compiler/f:Compiler.cs" caret="9247" fromTop="19" />
+      <File id="8DBA31D2-E27E-439B-A37C-33D75B8DF2C6/f:RuleExample.xml" caret="1062" fromTop="25" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8DBA31D2-E27E-439B-A37C-33D75B8DF2C6/d:Properties/f:AssemblyInfo.cs" caret="325" fromTop="7" />
+      <File id="8DBA31D2-E27E-439B-A37C-33D75B8DF2C6/d:Properties/f:AssemblyInfo.cs" caret="571" fromTop="11" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

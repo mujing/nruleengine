@@ -1,0 +1,5 @@
+E:\MyDoc\Visual Studio 2010\NRuleEngine\obj\Debug\ResolveAssemblyReference.cache
+E:\MyDoc\Visual Studio 2010\NRuleEngine\bin\Debug\NRuleEngine.dll
+E:\MyDoc\Visual Studio 2010\NRuleEngine\bin\Debug\NRuleEngine.pdb
+E:\MyDoc\Visual Studio 2010\NRuleEngine\obj\Debug\NRuleEngine.dll
+E:\MyDoc\Visual Studio 2010\NRuleEngine\obj\Debug\NRuleEngine.pdb
